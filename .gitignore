@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Android Studio / Gradle
+android/.gradle/
+android/.idea/
+android/.kotlin/
+android/build/
+android/app/build/
+android/app/release/
+android/local.properties
+android/captures/
+*.iml
+
+# Signing keys never belong in the repo
+*.jks
+*.keystore
+keystore.properties
+
+# Built apps are attached to GitHub Releases instead
+*.apk
+*.aab

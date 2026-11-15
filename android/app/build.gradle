@@ -1,0 +1,29 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace = 'io.github.areumkay.hummm'
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = 'io.github.areumkay.hummm'
+        minSdk = 26
+        targetSdk = 34
+        versionCode = 1
+        versionName = '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = false
+            // Release APKs are signed with your own key via
+            // Build → Generate Signed App Bundle / APK in Android Studio.
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}
