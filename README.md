@@ -5,6 +5,13 @@ A minimal binaural beat generator for the Light Phone III.
 Pick a beat frequency, a tone and a volume, optionally mix in some noise, and
 press Start. Black and white, offline, no ads, no tracking.
 
+<p>
+  <img src="screenshots/A.png" width="24%" alt="Main screen with the beat waveform and frequency slider">
+  <img src="screenshots/B.png" width="24%" alt="Noise, sleep timer and monaural/binaural settings">
+  <img src="screenshots/C.png" width="24%" alt="Noise mixer with white and soft white layers">
+  <img src="screenshots/D.png" width="24%" alt="Frequency chart in Help">
+</p>
+
 ## Features
 
 - **Frequency** from 1 to 50 Hz, labelled by use:
